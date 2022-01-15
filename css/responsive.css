@@ -1,13 +1,58 @@
 @media only screen and (max-width: 688px) {
+    nav {
+        padding: 20px 15px;
+    }
+    nav .mobile-nav {
+        display: inline-block;
+    }
+    nav .nav-items {
+        display: none;
+    }
+    nav .mobile-cart {
+        display: inline-block;
+    }
     .container {
         width: 100%;
     }
     .top-page {
-        display: block;
+        flex-direction: column-reverse;
         text-align: center;
+    }
+    .top-page img {
+        width: 100%;
+    }
+    .top-page h1 {
+        font-size: 28px;
+    }
+    .top-page p {
+        font-size: 14px;
+        padding: 30px;
     }
     .top-banner-right {
         margin-top: 30px;
         text-align: center;
+    }
+    .brands-logo {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    .extra-page {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .extra-page-left {
+        width: 100%;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .brands-logo img {
+        width: 50%;
+    }
+    .card {
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
     }
 }

@@ -49,6 +49,12 @@ nav {
     align-items: center;
     height: 50px;
 }
+nav .mobile-nav {
+    display: none;
+}
+nav .mobile-cart {
+    display: none;
+}
 nav .nav-brand a {
     color: var(--secondary);
     text-decoration: none;
