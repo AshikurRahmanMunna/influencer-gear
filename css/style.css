@@ -36,6 +36,9 @@ body {
 .button i {
     margin-left: 10px;
 }
+.highlight {
+    color: var(--primary);
+}
 /* Utility classes end */
 /* Navbar start */
 nav {
@@ -182,12 +185,38 @@ nav .nav-items ul li a:hover {
 }
 /* Popular collection start */
 
+/* Extra page start */
+.extra-page {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.extra-page-right h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.extra-page-left {
+    flex: 1;
+}
+.extra-page-right {
+    flex: 1;
+    padding: 40px;
+}
+.extra-page img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Extra page end */
+
 /* Footer start */
 footer {
     background-color: #0A0826;
     padding: 30px;
 }
-footer h1, p, .footer-icons i {
+footer h1, footer p, .footer-icons i {
     display: block;
     text-align: center;
     color: white;
