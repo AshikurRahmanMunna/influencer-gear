@@ -1,0 +1,13 @@
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+    }
+    .top-page {
+        display: block;
+        text-align: center;
+    }
+    .top-banner-right {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
