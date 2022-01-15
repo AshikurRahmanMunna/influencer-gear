@@ -40,6 +40,9 @@ body {
 .highlight {
     color: var(--primary);
 }
+.black-color {
+    color: var(--secondary);
+}
 /* Utility classes end */
 /* Navbar start */
 nav {
@@ -51,9 +54,11 @@ nav {
 }
 nav .mobile-nav {
     display: none;
+    color: var(--secondary);
 }
 nav .mobile-cart {
     display: none;
+    color: var(--secondary);
 }
 nav .nav-brand a {
     color: var(--secondary);
@@ -114,7 +119,7 @@ nav .nav-items ul li a:hover {
 }
 .brands-logo {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     justify-items:auto;
 }
 .brands-logo img {

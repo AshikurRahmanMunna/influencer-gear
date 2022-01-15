@@ -34,6 +34,7 @@
     }
     .brands-logo {
         grid-template-columns: repeat(4, 1fr);
+        padding: 20px;
     }
     .cards {
         grid-template-columns: 1fr;
@@ -47,6 +48,11 @@
         padding: 30px;
     }
 }
+@media only screen and (max-width: 450px) {
+    .brands-logo {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 @media only screen and (max-width: 400px) {
     .brands-logo img {
         width: 50%;
@@ -54,5 +60,53 @@
     .card {
         grid-column-gap: 5px;
         grid-row-gap: 5px;
+    }
+}
+@media only screen and (min-width: 669px) and (max-width:772px) {
+    .container {
+        width: 90%;
+    }
+    nav .nav-items ul li a {
+        font-size: 12px;
+    }
+    .top-banner-left h1 {
+        font-size: 28px;
+    }
+    .top-banner-right img {
+        width: 90%;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .brands-logo {
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+    nav .nav-items ul li a {
+        font-size: 14px;
+    }
+    .top-banner-left h1 {
+        font-size: 40px;
+    }
+    .top-banner-right img {
+        width: 90%;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .brands-logo {
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1365px) {
+    .container {
+        width: 90%;
     }
 }
